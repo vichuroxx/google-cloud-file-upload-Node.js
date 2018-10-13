@@ -22,3 +22,5 @@ link: https://cloud.google.com/docs/authentication/getting-started
 5. Install this npm to avoid error (Run in terminal where u execute node files)
 
 npm install --save @google-cloud/storage
+
+Edit the text.js file and add your project id , bucket name,file url
