@@ -17,7 +17,7 @@ const bucketName = 'enter the name of bucket you have created';
 storage
   .bucket(bucketName).upload(filename)
   .then(() => {
-    console.log(`Bucket ${bucketName} created.`);
+    console.log(`File uploaded to Bucket ${bucketName} `);
   })
   .catch(err => {
     console.error('ERROR:', err);
